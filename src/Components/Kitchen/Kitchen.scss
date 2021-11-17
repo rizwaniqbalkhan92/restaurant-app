@@ -1,0 +1,28 @@
+.btnStatus{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 200px auto;
+    height: 150px;
+    background-color: darkcyan !important;
+    color: white !important;
+    justify-content: space-around;
+    h2{
+        margin: 5px auto;
+    }
+    .foodStatus{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+.btnNotAvail{
+    background-color: red !important; 
+    color: white;
+}
+.btnMaking{
+    background-color: blue !important;
+    color: white;
+}
+    }
+
+
+}

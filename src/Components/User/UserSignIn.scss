@@ -1,0 +1,159 @@
+div {
+  .userSignIn {
+    background-image: url("../../images//food-cooking-background-on-white-260nw-1710363658.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+.signInDivAdmin{
+
+    // position: absolute;
+    // right: 0px;
+    width: 450px;
+    height: 98vh;
+    margin: 10px auto;
+    color: white;
+    opacity: 0.7;
+    
+    background-color: #0E99A1;
+    // border-radius: 70px 0px 0px 70px !important;
+    .divMov{
+        margin: 100px auto;
+     
+    }
+    .divMov2{
+        margin: 70px auto !important;
+     
+    }
+     .heading4 {
+       font-size: 42px !important;
+       color: white !important;
+     }
+     .heading45 {
+       font-size: 42px !important;
+       color: white !important;
+     }
+     .signInBtn {
+       background-color: #5F6363;
+       margin-top: 20px;
+       color: white;
+     }
+     .inputs {
+       width: 330px !important;
+       background-color: white;
+       border-radius: 5px;
+       height: 55px;
+       margin-top: 30px;
+     }
+
+
+}
+.signInDivKitchen {
+    margin: 8px auto;
+    // position: absolute;
+    // right: 0px;
+    width: 450px;
+    height: 98vh;
+    color: white;
+    opacity: 0.7;
+ 
+    background-color: #707C7C;
+    // border-radius: 70px 0px 0px 70px !important;
+   .divMov2{
+       margin: 100px auto;
+    
+   }
+   .heading4 {
+    font-size: 42px !important;
+    color: white !important;
+  }
+  .heading45 {
+    font-size: 42px !important;
+    color: white !important;
+  }
+  .signInBtn {
+    background-color: #b6a691;
+    margin-top: 20px;
+    color: white;
+  }
+  .inputs {
+    width: 330px !important;
+    background-color: white;
+    border-radius: 5px;
+    height: 55px;
+    margin-top: 30px;
+  }
+}
+    .signInDiv {
+      // margin: 15px auto;
+      position: absolute;
+      right: 0px;
+      width: 450px;
+      height: 100vh;
+      color: white;
+      opacity: 0.7;
+   
+      background-color: #f33827;
+      border-radius: 70px 0px 0px 70px !important;
+     .divMov{
+         margin: 100px auto;
+      
+     }
+     .divMov2{
+         margin: 70px auto !important;
+      
+     }
+     .divMov4{
+         margin: 70px auto !important;
+      
+     }
+      .heading4 {
+        font-size: 42px !important;
+        color: white !important;
+      }
+      .heading45 {
+        font-size: 42px !important;
+        color: brown !important;
+      }
+      .signInBtn {
+        background-color: #b6a691;
+        margin-top: 20px;
+        color: white;
+      }
+      .inputs {
+        width: 330px !important;
+        background-color: white;
+        border-radius: 5px;
+        height: 55px;
+        margin-top: 30px;
+      }
+    }
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+
+    .btnj{
+        color: black !important;
+    }
+  .btnLast2{
+      color: white !important;
+    margin-bottom: 20px !important;
+  } 
+  .btnLast3{
+      color: white !important;
+    margin-bottom: 50px !important;
+  } 
+  .btnLast4{
+      color: white !important;
+    margin-bottom: 100px !important;
+  } 
+  .btnLast{
+      color: white !important;
+    margin-bottom: 50px !important;
+    span{
+        color: black !important;
+    }
+ } 
+}
+}

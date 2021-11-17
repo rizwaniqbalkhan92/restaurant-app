@@ -1,0 +1,46 @@
+div{
+  .heading{
+    color: red;
+    font-size: 40px;
+  }
+  .mainCard{
+    width: 50% !important;
+    margin: 10px auto;
+    height: 520px;
+    // background-color: aqua;
+ .inputMain{
+display: flex;
+justify-content: space-around;
+
+
+  .inputs{
+display: flex;
+width:25% ;
+height: 130px;
+justify-content: space-between;
+flex-direction: column;
+// border: 2px solid red;
+img{
+  border-radius:10px ;
+  width: 132px;
+  border: 1px solid saddlebrown;
+}
+
+
+  }
+
+  .inputFields{
+    // padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .btn{
+      background-color: maroon !important;
+      color: wheat;
+    }
+  }
+ }
+ 
+ 
+  }
+}

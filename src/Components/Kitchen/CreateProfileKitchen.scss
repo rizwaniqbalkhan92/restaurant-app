@@ -1,0 +1,50 @@
+.createProfile {
+    background-image: url("../../images/54088660-organic-food-background-studio-photo-of-different-fruits-and-vegetables-on-white-wooden-table-high-r.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .create-profile-heading {
+      font-size: 32px !important;
+      font-weight: 800;
+      color: black;
+      // margin: 20px auto;
+    }
+  
+    .create-profile-card {
+      width: 50%;
+      height: 550px;
+      margin: 0px auto;
+      border-radius: 10px;
+      background-color: lightblue;
+      padding: 20px;
+      .imgHandler {
+        margin-left: 300px;
+        // margin: 10px auto !important;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        .inpHandler {
+          width: 200px !important;
+        }
+      }
+      .createProfileBox {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        .createProfileBoxInner {
+          // width: 25%;
+          // border: 1px solid white;
+          display: flex;
+          justify-content: space-around;
+          width: 330px;
+          height: 350px;
+          flex-direction: column;
+          .textInpt{
+              background-color: white;
+              border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+  
