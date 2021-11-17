@@ -10,11 +10,11 @@ const UserHeaderLinks = () => {
                 <ul>
                     <li>HOME</li>
                     <li>|</li>
-                    <li>HOME</li>
+                    <li>ABOUT</li>
                     <li>|</li>
-                    <li>HOME</li>
+                    <li>CONTACT</li>
                     <li>|</li>
-                    <li>HOME</li>
+                    <li>GALLERY</li>
                 </ul>
             </div>
         </div>

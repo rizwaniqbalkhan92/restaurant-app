@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import { Typography,Modal, Button, Card } from "@material-ui/core";
 import img1 from "../../images/rr.png";
 import './Kitchen.scss'
-
+// 
 
 
 const AllOrders = () => {
@@ -50,36 +50,8 @@ const AllOrders = () => {
       key: 1,
       images: { img1: img1, img2: img1, img3: img1 },
     },
-    {
-      name: "Pizza Paratha",
-      key: 1,
-      images: { img1: img1, img2: img1, img3: img1 },
-    },
-    {
-      name: "Pizza Paratha",
-      key: 1,
-      images: { img1: img1, img2: img1, img3: img1 },
-    },
-    {
-      name: "Pizza Paratha",
-      key: 1,
-      images: { img1: img1, img2: img1, img3: img1 },
-    },
-    {
-      name: "Pizza Paratha",
-      key: 1,
-      images: { img1: img1, img2: img1, img3: img1 },
-    },
-    {
-      name: "Pizza Paratha",
-      key: 1,
-      images: { img1: img1, img2: img1, img3: img1 },
-    },
-    {
-      name: "Pizza Paratha",
-      key: 1,
-      images: { img1: img1, img2: img1, img3: img1 },
-    },
+
+ 
 
   ];
 

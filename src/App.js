@@ -19,7 +19,7 @@ import AdminSignUp  from './Components/Admin/AdminSignUp'
 import KitchenSignIn  from './Components/Kitchen/KichenSignIn'
 import KitchenSignUp from './Components/Kitchen/KitchenSignUp'
 import MainRouting from './Components/Router/MainRouting';
-
+import About from './Components/User/About'
 function App() {
   return (
     <div className="App">
@@ -37,6 +37,7 @@ function App() {
   {/* <KitchenRouting/> */}
   {/* <KitchenDashboard/> */}
   <MainRouting/>
+  {/* <About/> */}
   {/* <UserNavbar/> */}
     </div>
   );

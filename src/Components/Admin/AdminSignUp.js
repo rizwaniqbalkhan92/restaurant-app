@@ -1,8 +1,11 @@
 import React from "react";
 import "../User/UserSignIn.scss";
 import { Card, TextField, Typography, Button } from "@material-ui/core";
-
+import {useHistory}  from 'react-router-dom'
 const AdminSignUp = () => {
+  
+  const history=useHistory()
+  
   return (
     <div>
       <div className="userSignIn">
@@ -30,15 +33,15 @@ const AdminSignUp = () => {
           /><br/>
           {/* <TextField placeholder='Password' variant='contained' className='inputs' /> */}
 
-          <Button variant="contained" className="signInBtn">
+          <Button variant="contained" onClick={()=>history.push('/admin/createProfile')} className="signInBtn">
             <Typography>Sign Up</Typography>
           </Button>
           <div>
-              <Button className='btnj'>Join as User</Button>
-              <Button className='btnj'>Join as Kitchen Manager</Button>
+              <Button onClick={()=>history.push('/userSignIn')} className='btnj'>Join as User</Button>
+              <Button onClick={()=>history.push('/kitchenSignIn')} className='btnj'>Join as Kitchen Manager</Button>
           </div>
           </div>
-              <Button className='btnLast3'>I'm new. Sign In</Button>
+              <Button onClick={()=>history.push('/adminSignIn')} className='btnLast3'>Already have an account. Sign In</Button>
         </Card>
       </div>
     </div>

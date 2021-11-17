@@ -2,7 +2,11 @@ import React from "react";
 import "./CreateProfileKitchen.scss";
 import img1 from "../../images/img1.jpg";
 import { TextField, Card, Paper, Typography, Button } from "@material-ui/core";
+import {useHistory}  from 'react-router-dom'
+
 const CreateProfileKitchen = () => {
+  const history=useHistory()
+  
   return (
     <div className="createProfile">
       <Typography className="create-profile-heading">Kitchen Manager Create Profile</Typography>
@@ -75,7 +79,7 @@ const CreateProfileKitchen = () => {
             />
           </div>
         </div>
-        <Button variant='contained' color='info'>
+        <Button className='createbtn1' onClick={()=>history.push('/kitchen/dashboard')} variant='contained' >
             <Typography>Create</Typography>
         </Button>
       </Card>

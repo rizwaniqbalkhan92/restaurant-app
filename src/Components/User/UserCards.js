@@ -38,6 +38,7 @@ const onModalTwoOpen=()=>{
     <Paper className="cardSections">
     {
         data.map((val,ind)=>(
+          
             <Card className="card">
         <img className="cardImg" src={val.images.img1} />
         <div className="cardText">

@@ -30,7 +30,7 @@ const UserSignUp = () => {
           /><br/>
           {/* <TextField placeholder='Password' variant='contained' className='inputs' /> */}
 
-          <Button  onClick={()=>history.push('/createProfileUser')} variant="contained" className="signInBtn">
+          <Button  onClick={()=>history.push('/createProfile')} variant="contained" className="signInBtn">
             <Typography>Sign Up</Typography>
           </Button>
           <div>

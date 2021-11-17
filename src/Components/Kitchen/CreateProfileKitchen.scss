@@ -15,7 +15,8 @@
       height: 550px;
       margin: 0px auto;
       border-radius: 10px;
-      background-color: lightblue;
+      background-color: #8B9494;
+      opacity: 0.8;
       padding: 20px;
       .imgHandler {
         margin-left: 300px;
@@ -44,6 +45,10 @@
               border-radius: 5px;
           }
         }
+      }
+      .createbtn1{
+        background-color: #494949 !important;
+        color: white;
       }
     }
   }

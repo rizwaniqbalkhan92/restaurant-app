@@ -17,8 +17,8 @@ import KitchenSignUp from '../Kitchen/KitchenSignUp'
 const MainRouting = () => {
     return (
 <Router>
+    <Route path='/userSignIn'  exact  component={UserSignIn} />
     <Route path='/'  exact   component={Home} />
-    <Route path='/userSignIn'    component={UserSignIn} />
     <Route path='/userSignUp'    component={UserSignUp} />
     <Route path='/createProfile'    component={CreateProfile} />
     <Route path='/adminSignIn'    component={AdminSignIn} />

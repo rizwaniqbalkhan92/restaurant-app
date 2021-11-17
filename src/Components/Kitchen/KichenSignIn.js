@@ -32,8 +32,8 @@ const KitchenSignIn = () => {
             <Typography>Sign In</Typography>
           </Button>
           <div>
-              <Button onClick={()=>history.push('/userSignIn')} className='btnj'>Join as Admin</Button>
-              <Button className='btnj'>Join as User</Button>
+              <Button onClick={()=>history.push('/adminSignIn')} className='btnj'>Join as Admin</Button>
+              <Button  onClick={()=>history.push('/userSignIn')}  className='btnj'>Join as User</Button>
           </div>
           </div>
               <Button onClick={()=>history.push('/kitchenSignUp')} className='btnLast2'>I'm new. Sign Up</Button>

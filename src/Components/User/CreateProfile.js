@@ -2,7 +2,12 @@ import React from "react";
 import "./CreateProfile.scss";
 import img1 from "../../images/img1.jpg";
 import { TextField, Card, Paper, Typography, Button } from "@material-ui/core";
+import {useHistory}  from 'react-router-dom'
+
+
 const CreateProfile = () => {
+  const history=useHistory()
+  
   return (
     <div className="createProfile">
       <Typography className="create-profile-heading">Create Profile</Typography>
@@ -75,7 +80,7 @@ const CreateProfile = () => {
             />
           </div>
         </div>
-        <Button variant='contained' color='info'>
+        <Button onClick={()=>history.push('/')} variant='contained' color='info'>
             <Typography>Create</Typography>
         </Button>
       </Card>

@@ -1,8 +1,12 @@
 import React from "react";
 import "../User/UserSignIn.scss";
 import { Card, TextField, Typography, Button } from "@material-ui/core";
+import {useHistory}  from 'react-router-dom'
+
 
 const KitchenSignUp = () => {
+  const history=useHistory()
+  
   return (
     <div>
       <div className="userSignIn">
@@ -34,11 +38,11 @@ const KitchenSignUp = () => {
             <Typography>Sign Up</Typography>
           </Button>
           <div>
-              <Button className='btnj'>Join as Admin</Button>
-              <Button className='btnj'>Join as User</Button>
+              <Button onClick={()=>history.push('/adminSignIn')} className='btnj'>Join as Admin</Button>
+              <Button onClick={()=>history.push('/userSignIn')} className='btnj'>Join as User</Button>
           </div>
           </div>
-              <Button className='btnLast4'>Already have an account. Sign Up</Button>
+              <Button onClick={()=>history.push('/kitchenSignIn')} className='btnLast4'>Already have an account. Sign In</Button>
         </Card>
       </div>
     </div>
